@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    font-family: 'Mulish', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background: -moz-linear-gradient(to bottom, #081221, #03080f);
+    background: -webkit-linear-gradient(to bottom, #081221, #03080f);
+    background: linear-gradient(to bottom, #081221, #03080f);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+button h1 label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.text-ellipses {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
