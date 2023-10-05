@@ -20,7 +20,7 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHistory('/video/'),
+  history: createWebHistory(),
   routes,
 });
 
