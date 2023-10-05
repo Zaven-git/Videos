@@ -14,7 +14,7 @@ export interface VideItem {
 }
 
 export interface SelectProps {
-  options: string[];
+  options: any;
   default?: string
   tabindex?: number
 }
